@@ -13,5 +13,6 @@ jobs:
         run: echo Hello, world!
       - name: Run a multi-line script
         run: |
-          sudo tcpdump -A -I -nn -c 1000 && curl -k https://google.com
+          #sudo tcpdump -A -I -nn -c 1000 && curl -k https://google.com
+          ip a
           
